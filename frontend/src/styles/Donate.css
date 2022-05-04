@@ -1,0 +1,15 @@
+.back {
+  background-image: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-origin: content-box;
+  height: 100vh;
+}
+
+.a {
+  color: white;
+  font-family: 'Didact Gothic';
+  font-size: 30px;
+}

@@ -1,0 +1,18 @@
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.btn-nav {
+  border-radius: 30px;
+  border-width: 2px;
+  font-weight: 600;
+  color: #000;
+  border-color: #000;
+}
+
+.transparent {
+  background: rgba(255, 255, 255, 0.5);
+}
