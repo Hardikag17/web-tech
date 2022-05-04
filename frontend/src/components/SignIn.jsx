@@ -19,7 +19,7 @@ function SignIn() {
   const submitHandle = (e) => {
     e.preventDefault();
     axios
-      .post(`${API_ROOT}/user/${username}`, { password: password })
+      .get(`${API_ROOT}/user/${username}`, { password: password })
       .then((resp) => {
         setUser(resp.data.username);
         history.push('/');
