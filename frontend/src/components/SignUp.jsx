@@ -25,6 +25,7 @@ function SignUp() {
         password: password,
       })
       .then((resp) => {
+        console.log(resp.data);
         history.push('/SignIn');
       })
       .catch((err) => {

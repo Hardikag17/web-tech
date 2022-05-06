@@ -10,7 +10,6 @@ const userSchema = new Schema({
 });
 
 const postSchema = Schema({
-  id: Number,
   username: String,
   url: String,
   content: String,

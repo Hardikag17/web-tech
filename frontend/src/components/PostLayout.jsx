@@ -12,6 +12,7 @@ class PostLayout extends Component {
   }
   componentDidMount() {
     axios.get(`${API_ROOT}/post`).then((res) => {
+      console.log(res.data);
       this.setState({ list: res.data });
     });
   }

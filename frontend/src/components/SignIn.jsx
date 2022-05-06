@@ -19,10 +19,13 @@ function SignIn() {
   const submitHandle = (e) => {
     e.preventDefault();
     axios
-      .get(`${API_ROOT}/user/${username}`, { password: password })
+      .post(`${API_ROOT}/user/${username}`, { password: password })
       .then((resp) => {
-        setUser(resp.data.username);
-        history.push('/');
+        console.log(resp.data);
+        if (resp.data.username != null) {
+          setUser(resp.data.username);
+          history.push('/');
+        }
       })
       .catch((err) => {
         console.log(err);

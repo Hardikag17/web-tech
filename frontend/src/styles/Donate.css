@@ -3,9 +3,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: auto;
-  background-origin: content-box;
+  background-size: cover;
   height: 100vh;
+  background-origin: content-box;
 }
 
 .a {
